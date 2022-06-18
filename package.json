@@ -1,0 +1,35 @@
+{
+  "name": "webapi-battery-status",
+  "description": "An idea how to use the battery status web api",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josestiller/webapi-battery-status.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josestiller/webapi-battery-status/issues"
+  },
+  "author": {
+    "name": "José Stiller",
+    "email": "info@josestiller.de",
+    "url": "https://www.josestiller.de"
+  },
+  "homepage": "https://github.com/josestiller/webapi-battery-status#readme",
+  "keywords": [
+    "webapi",
+    "battery",
+    "vendor",
+    "power saving mode"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  }
+}
